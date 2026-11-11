@@ -120,14 +120,16 @@ h1{font-family:'Ruslan Display',Georgia,serif;font-size:clamp(54px,11vw,120px);l
 .facts li{border:1px solid rgba(255,255,255,.28);background:rgba(20,12,51,.45);border-radius:999px;padding:4px 12px;color:#e9e2ff;backdrop-filter:blur(3px)}
 
 /* prologue */
-.prolog{display:grid;grid-template-columns:1.25fr 1fr;gap:36px;align-items:start}
+.prolog{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:start}
 .scroll{background:linear-gradient(160deg,#2b1f66,#1b1342);border:1px solid var(--line);border-radius:16px;padding:26px 26px 12px;position:relative}
 .scroll p{font-size:19px}
 .scroll .final{font-family:'Yeseva One',serif;color:var(--gold);font-size:clamp(20px,2.6vw,24px);line-height:1.35;margin-top:6px}
 .moons{display:flex;gap:10px;margin-bottom:14px}
 .moons i{width:22px;height:22px;border-radius:50%;display:block;background:radial-gradient(circle at 35% 35%,#fff,#d8dbe6 60%,#9aa0b5);box-shadow:0 0 14px #fff6}
 .moons i+i{width:16px;height:16px;margin-top:6px;background:radial-gradient(circle at 35% 35%,#f4ffd9,var(--moon) 60%,#6f9a2c);box-shadow:0 0 14px #c9f27a88}
-.side img{display:block;width:100%;border-radius:14px;border:2px solid var(--violet);box-shadow:0 0 30px rgba(169,139,255,.25)}
+.side{position:sticky;top:20px;display:grid;gap:22px}
+.side figure{margin:0}
+.side img{display:block;width:100%;height:auto;border-radius:14px;border:2px solid var(--violet);box-shadow:0 0 30px rgba(169,139,255,.25)}
 .side figcaption{font:15px 'Alegreya Sans',sans-serif;color:var(--muted);margin-top:8px}
 
 /* chapters */
@@ -241,10 +243,10 @@ footer .other img{width:32px;height:32px;border-radius:8px}
         <p>Вокруг — Чародол, мир меча и магии. Деревья здесь перешёптываются, в болоте горят огни, а ночью над лесом всходят две луны: серебряная и зелёная. Людей здесь не ждали. Но гадюкинцы и не таких видали.</p>
         <p class="final">Тысячи лет мы строили Гадюкино в одном мире. Теперь начинаем заново, в другом.</p>
       </div>
-      <figure class="side">
-        <img src="img/blaster.jpg" alt="Бой в Чародоле: бластер деда Ерофея прожигает колонну врагов на прямой дороге" width="1200" height="723" loading="lazy">
-        <figcaption>Бластер деда Ерофея — последний обломок Галактики. Один выстрел — и вся колонна врагов на прямой. Батарейка, правда, почти села.</figcaption>
-      </figure>
+      <div class="side">
+        <figure><img src="img/cover-1.jpg" alt="Первое утро в Чародоле: шесть изб среди волшебного леса, светящиеся грибы и две луны" width="1200" height="500" loading="lazy"><figcaption>Шесть изб, баня, мельница и две луны над лесом — первое утро в Чародоле.</figcaption></figure>
+        <figure><img src="img/blaster-wide.jpg" alt="Бой в Чародоле: бластер деда Ерофея прожигает колонну врагов на прямой дороге" width="1200" height="448" loading="lazy"><figcaption>Бластер деда Ерофея — последний обломок Галактики. Один выстрел — и вся колонна врагов на прямой. Батарейка, правда, почти села.</figcaption></figure>
+      </div>
     </div>
   </section>
 
