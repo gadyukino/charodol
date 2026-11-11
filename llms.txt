@@ -2,8 +2,8 @@
 
 > Бесплатный tower defense с юмором для Android (RuStore, скоро). Хроноускоритель сломался, и столица Галактики Гадюкино провалилась в прошлое, в волшебный мир Чародол. 7 глав, 63 уровня. Вчерашний враг — завтрашний союзник: каждая побеждённая раса переезжает в Гадюкино. Без встроенных покупок, 12+, Android 7.0+, играет без интернета.
 
-- Сайт: https://amaltsevgetwola-maker.github.io/charodol/
-- Серия «Оборона Гадюкино»: https://amaltsevgetwola-maker.github.io/gadyukino/
+- Сайт: https://gadyukino.github.io/charodol/
+- Серия «Оборона Гадюкино»: https://gadyukino.github.io/
 - Разработчик: Александр Мальцев, coinloss@yandex.ru
 
 ## Главы

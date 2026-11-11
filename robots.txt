@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://amaltsevgetwola-maker.github.io/charodol/sitemap.xml
+Sitemap: https://gadyukino.github.io/charodol/sitemap.xml
